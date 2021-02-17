@@ -31,3 +31,27 @@
       -> MySQL 설치 및 데이터베이스 생성
       -> 스프링부트 어플리케이션 + Hibernates + SQL + React UI
       -> 스프링부트 어플리케이션 + Hibernates + JPA + React UI
+      
+데이타베이스 시스템이란
+- 관련된 데이터를 담고 있고, 사용할 수 있는 프로그램으로 구성
+- 어플리케이션: 뱅킹 등
+- 데이터베이스는 매우 클 수 있다.
+- 데이터베이스는 우리 생활의 모든 면에서 사용될 수 있다.
+- 데이터베이스 : 파일 시스템, DBMS 등
+- 파일 시스템의 단점
+  -> 데이터의 중복과 일관성 부족 문제 (파일포맷 상이, 프로그램 상이 등)
+  -> 데이터 접근의 어려움 (각 테스트 수행을 위해 각기 새로운 프로그램이 필요)
+  -> 데이터 아이솔레이션
+  -> 무결성 문제 (데이터 추가, 삭제 등의 어려움) -> 동시성 문제
+  -> DBMS로 문제점 해결!!!
+  Level of Abstraction
+  - Physical Level: 레코드가 어떻게 저장되는지 기술함
+  - Logical Level: 데이터베이스에 저장된 데이터와 데이터간 관계를 기술함
+  - View Level: Application programs hide details of data types. Views can also hide information (such as an employee's salary) for security purpose
+  
+  Schema: the logical structure of the database (physical schema, logical schema)
+  Instance: the actual contents of the database at a particular point in time 
+  physical data independence: the ability to modify the physical schema without changing the logical schema
+   -> application depends on the logical schema
+   -> in general the interface between the various levels and components should be well defined so that changes in some parts do not seriously influence others.
+   
