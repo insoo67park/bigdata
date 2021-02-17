@@ -1,0 +1,33 @@
+목차
+1. 데이터베이스 (50분)
+    - 데이터/데이터베이스/데이터베이스 시스템
+    - DBMS의 정의
+    - DBMS의 역사
+      -> 이 부분에서 NoSQL까지 넘어감 -> Database -> DW/OLAP -> Datalake -> Big Data -> Deep learning까지의 흐름을 자연스럽게 설명해야 함 
+    - DBMS 시스템 구성
+    - DBMS의 기능
+    - DBMS의 종류 (RDBMS, NOSQL, Etc...)
+    - Data/Information
+    - Database -> DW/OLAP -> Big Data 분석 -> Datalake -> Machine learning -> Deep learning -> ML
+    - DevOps, MLOps
+2. SQL (120분-실습포함)
+    - SQL 간단한 설명
+    - 실습
+      -> DBMS 설치 (MySQL)
+      -> DB관리 툴 설치
+      -> DBMS 생성, 테이블 생성, 데이터 생성 후 각종 쿼리 만들어서 실행
+    - Structured Query Language
+    - Relation/View/Join/Transaction
+    - Indexing
+    - Transaction
+    - Optimazation
+    - Plan, Hint ( Oracle 특화) -> Optimization의 일환
+3. E-R Model (60분)
+    - Entity, Relation Model
+    - ER Diagram (Normailzation, Denormalization)
+    - Normalization/Denormalization
+4. DBMS 응용 (120 분)
+    - 자바 어플리케이션에서 활용하는 방법 데모 
+      -> MySQL 설치 및 데이터베이스 생성
+      -> 스프링부트 어플리케이션 + Hibernates + SQL + React UI
+      -> 스프링부트 어플리케이션 + Hibernates + JPA + React UI
