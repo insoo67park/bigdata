@@ -1,5 +1,5 @@
 목차
-1. 데이터베이스 (50분)
+1. 데이터베이스 (60분)
     - 데이터/데이터베이스/데이터베이스 시스템
     - DBMS의 정의
     - DBMS의 역사
@@ -10,7 +10,15 @@
     - Data/Information
     - Database -> DW/OLAP -> Big Data 분석 -> Datalake -> Machine learning -> Deep learning -> ML
     - DevOps, MLOps
-2. SQL (120분-실습포함)
+
+2. E-R Model (60분)
+    - Entity, Relation Model
+    - ER Diagram (Normailzation, Denormalization)
+    - Normalization/Denormalization
+    - 실제 문제영역을 대상으로 모델링을 수행하고 테이블을 생성함
+    - 개념모델, 논리모델, 물리모델 => 옛날에 사용했었던 책에 있을 텐데...
+
+3. SQL (120분-실습포함)
     - SQL 간단한 설명
     - 실습
       -> DBMS 설치 (MySQL)
@@ -22,15 +30,14 @@
     - Transaction
     - Optimazation
     - Plan, Hint ( Oracle 특화) -> Optimization의 일환
-3. E-R Model (60분)
-    - Entity, Relation Model
-    - ER Diagram (Normailzation, Denormalization)
-    - Normalization/Denormalization
+
 4. DBMS 응용 (120 분)
-    - 자바 어플리케이션에서 활용하는 방법 데모 
+    - 자바 어플리케이션에서 활용하는 방법 데모
+      -> 간단한 게시판 어플리케이션을 대상으로 
       -> MySQL 설치 및 데이터베이스 생성
       -> 스프링부트 어플리케이션 + Hibernates + SQL + React UI
       -> 스프링부트 어플리케이션 + Hibernates + JPA + React UI
+      -> Transaction 개념
       
 데이타베이스 시스템이란
 - 관련된 데이터를 담고 있고, 사용할 수 있는 프로그램으로 구성
